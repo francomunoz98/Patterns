@@ -12,12 +12,13 @@ public class Patterns {
 		System.out.print("Enter number of columns: ");
 		columns = scan.nextInt();
 		
-			for(int i=1; i<=rows; i++)
-			{	
-				for(int j=1; j<=columns; j++)
-				{
+			for(int i=1; i<=rows; i++){
+			// i loops the # of rows	
+				for(int j=1; j<=columns; j++){
+				// j loops the # of columns
 					System.out.print("*");
 				}
+				// S.o.p() moves the loop to the next line
 				System.out.println();
 			}
 		
