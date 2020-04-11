@@ -23,6 +23,19 @@ public class Patterns {
 			}
 			System.out.println("");
 			
+			for(int i=1; i<=4; i++){
+				// i loops the # of rows	
+					for(int j=1; j<=4; j++){
+						if(i==1||i==4||j==1||j==4) {
+						System.out.print(" * ");
+						}
+					}
+					// S.o.p() moves the loop to the next line
+					System.out.println();
+			}
+			
+			System.out.println("");
+			
 			for(int i=1; i<=rows; i++){
 				// i loops the # of rows	
 					for(int j=1; j<=i; j++){
