@@ -6,13 +6,15 @@ public class Patterns {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int rows, columns;
-		rows = scan.nextInt();
 		
+		System.out.print("Enter number of rows: ");
+		rows = scan.nextInt();
+		System.out.print("Enter number of columns: ");
 		columns = scan.nextInt();
 		
-			for(int i=1; i<=4; i++)
+			for(int i=1; i<=rows; i++)
 			{	
-				for(int j=1; j<=4; j++)
+				for(int j=1; j<=columns; j++)
 				{
 					System.out.print("*");
 				}
