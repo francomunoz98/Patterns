@@ -16,11 +16,22 @@ public class Patterns {
 			// i loops the # of rows	
 				for(int j=1; j<=columns; j++){
 				// j loops the # of columns
-					System.out.print("*");
+					System.out.print(" * ");
 				}
 				// S.o.p() moves the loop to the next line
 				System.out.println();
 			}
+			System.out.println("");
+			
+			for(int i=1; i<=rows; i++){
+				// i loops the # of rows	
+					for(int j=1; j<=i; j++){
+					// j loops the # of columns
+						System.out.print("*");
+					}
+					// S.o.p() moves the loop to the next line
+					System.out.println();
+				}
 		
 		scan.close();
 	}
